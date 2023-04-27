@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multi-Modal Data Integration
-description: Integrating Different Data Sources With Self-Supervised Learning
+title: Improving Models of Information-Sparse Histopathology Data
+description: Self-Supervised Multi-Modal Data Integration
 img: assets/img/12.jpg
 importance: 1
 category: PhD
