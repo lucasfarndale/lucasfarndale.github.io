@@ -13,4 +13,7 @@ children:
     - title: divider
     - title: consultancy
       permalink: /consultancy/
+    - title: divider
+    - title: outreach
+      permalink: /outreach/
 ---
