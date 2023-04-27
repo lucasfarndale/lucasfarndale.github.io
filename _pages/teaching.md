@@ -11,21 +11,21 @@ nav_order: 4
 
 ### Lectures
 
-[Machine Learning & Artificial Intelligence for Data Scientists (Masters)](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100)
+[Machine Learning & Artificial Intelligence for Data Scientists (Masters)](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100) \
 
 
 ## 2021/22
 
 ### Tutorials
 
-Maths 4H/5E Numerical Methods (Honours/Masters)
-Maths 2A, 2C, 2D
-Maths 1
+Maths 4H/5E Numerical Methods (Honours/Masters) \
+Maths 2A, 2C, 2D \
+Maths 1 \
 
 
 ## 2020/21
 
 ### Tutorials
 
-Science Fundamentals 1X, 1Y
+Science Fundamentals 1X, 1Y \
 [Widening Participation Summer School (Maths)](https://www.gla.ac.uk/study/wp/summerschool/)
