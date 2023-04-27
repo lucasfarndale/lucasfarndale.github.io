@@ -6,7 +6,7 @@ description: Predicting the prognosis of a patient with potentially cancerous gr
 nav: true
 nav_order: 2
 display_categories: [PhD, Other]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
