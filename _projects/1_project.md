@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Integrating Different Data Sources With Self-Supervised Learning
+description: First PhD project
 img: assets/img/12.jpg
 importance: 1
 category: work
