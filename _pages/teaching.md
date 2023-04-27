@@ -7,6 +7,23 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+2022/23
 
-Organize your courses by years, topics, or universities, however you like!
+Lectures
+
+Machine Learning & Artificial Intelligence for Data Scientists (Masters)
+
+
+2021/22
+
+Tutorials
+
+Maths 4H/5E Numerical Methods (Honours/Masters)
+Maths 2A, 2C, 2D
+Maths 1
+2020/21
+
+Tutorials
+
+Science Fundamentals 1X, 1Y
+Widening Participation Summer School (Maths)
