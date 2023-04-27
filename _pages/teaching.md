@@ -14,11 +14,11 @@ nav_order: 4
 
 ## Tutorials
 
-Maths 4H/5E: Numerical Methods ([Honours: MATHS4109](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4109)/[Masters: MATHS5075](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS5075)) \
-[Mathematics 2A: Multivariable Calculus MATHS2001](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \ 
-[Mathematics 2C: Introduction to Real Analysis MATHS2032](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
+Maths 4H/5E: Numerical Methods ([Honours](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4109)/[Masters](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS5075)) \
+[Mathematics 2A: Multivariable Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \ 
+[Mathematics 2C: Introduction to Real Analysis](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
 [Mathematics 2D: Mathematical Methods and Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2033) \
 [Mathematics 1](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017) \
 [Mathematics 1C: Introduction to Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1015) \
-Science Fundamentals [1X CHEM1002](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1002)/[1Y CHEM1003](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1003) \
+Science Fundamentals [1X](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1002)/[1Y](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1003) \
 [Widening Participation Summer School (Maths)](https://www.gla.ac.uk/study/wp/summerschool/)
