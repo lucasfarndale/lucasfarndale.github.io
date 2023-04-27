@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: As well as research, I spend a lot of time teaching in the School of Mathematics and Statistics at UoG. Below is a list of the courses I've been involved in.
 nav: true
 nav_order: 4
