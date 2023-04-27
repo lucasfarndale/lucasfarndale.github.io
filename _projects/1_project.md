@@ -4,7 +4,7 @@ title: Multi-Modal Data Integration
 description: Integrating Different Data Sources With Self-Supervised Learning
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: PhD
 ---
 
 Every project has a beautiful feature showcase page.
