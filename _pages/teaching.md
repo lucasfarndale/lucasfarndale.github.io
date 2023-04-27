@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Lectures
 
-[Machine Learning & Artificial Intelligence for Data Scientists COMPSCI5100](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100) \
+[Machine Learning & Artificial Intelligence for Data Scientists COMPSCI5100](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100)
 
 
 ## Tutorials
