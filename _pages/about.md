@@ -21,3 +21,5 @@ social: true  # includes social icons at the bottom of the page
 
 
 Hi, I'm Lucas. My [research](/projects/) involves developing deep learning methods to solve problems in cancer research.
+
+I am part of the Insall lab at the Cancer Research UK Beatson Institute, and the Yuan lab in the University of Glasgow's School of Computing Science.
