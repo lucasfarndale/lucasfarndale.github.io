@@ -15,7 +15,7 @@ nav_order: 4
 ## Tutorials
 
 Maths 4H/5E: Numerical Methods ([Honours](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4109)/[Masters](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS5075)) \
-[Mathematics 2A: Multivariable Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \ 
+[Mathematics 2A: Multivariable Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \
 [Mathematics 2C: Introduction to Real Analysis](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
 [Mathematics 2D: Mathematical Methods and Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2033) \
 [Mathematics 1](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017) \
