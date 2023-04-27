@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>CRUK Beatson Institute</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.beatson.gla.ac.uk/'>CRUK Beatson Institute</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
