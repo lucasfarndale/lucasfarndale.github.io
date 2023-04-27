@@ -2,30 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: As well as research, I spend a lot of time teaching in the School of Mathematics and Statistics at UoG. Below is a list of the courses I've been involved in.
 nav: true
 nav_order: 4
 ---
 
-## 2022/23
+## Lectures
 
-### Lectures
-
-[Machine Learning & Artificial Intelligence for Data Scientists (Masters)](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100) \
+[Machine Learning & Artificial Intelligence for Data Scientists COMPSCI5100](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI5100) \
 
 
-## 2021/22
+## Tutorials
 
-### Tutorials
-
-Maths 4H/5E Numerical Methods (Honours/Masters) \
-Maths 2A, 2C, 2D \
-Maths 1 \
-
-
-## 2020/21
-
-### Tutorials
-
-Science Fundamentals 1X, 1Y \
+Maths 4H/5E: Numerical Methods ([Honours: MATHS4109](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4109)/[Masters: MATHS5075](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS5075)) \
+[Mathematics 2A: Multivariable Calculus MATHS2001](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \ 
+[Mathematics 2C: Introduction to Real Analysis MATHS2032](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
+[Mathematics 2D: Mathematical Methods and Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2033) \
+[Mathematics 1](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017) \
+[Mathematics 1C: Introduction to Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1015) \
+Science Fundamentals [1X CHEM1002](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1002)/[1Y CHEM1003](https://www.gla.ac.uk/coursecatalogue/course/?code=CHEM1003) \
 [Widening Participation Summer School (Maths)](https://www.gla.ac.uk/study/wp/summerschool/)
