@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Self-Supervised Learning to Detect Novel Morphological Clusters
+description: How can we make new discoveries from unlabelled images?
 img:
 importance: 3
-category: fun
+category: Machine Learning
 ---
 
 Every project has a beautiful feature showcase page.
