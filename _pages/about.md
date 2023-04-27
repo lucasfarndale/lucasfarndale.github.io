@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.beatson.gla.ac.uk/'>CRUK Beatson Institute</a> - <a href='https://www.gla.ac.uk/schools/mathematicsstatistics/staff/lucasfarndale/'>University of Glasgow</a> - <a href='https://www.ed.ac.uk/profile/lucas-farndale'>University of Edinburgh</a>
 
