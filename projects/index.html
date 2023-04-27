@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>math | Lucas  Farndale</title>
+    <title>projects | Lucas  Farndale</title>
     <meta name="author" content="Lucas  Farndale">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Predicting the prognosis of a patient with potentially cancerous growth is extremely difficult. Classical supervised machine learning requires large datasets with pre-scored ground truth labels, however these simply do not exist for many cancers and pre-cancerous growths, such as colorectal polyps. My work uses a set of emerging but relatively untested self-supervised machine learning techniques to investigate whether there exist as yet undiscovered features in pathology stains which can be used to predict cancer prognosis. These techniques require far less data than supervised methods, and no data labelling, leaving them free from human preconception, error, and bias. &lt;br&gt;My work focuses mainly on cancer, however, the methods developed are broadly applicable to other areas of image analysis, both in medicine and further afield. I'm also working on the integration of multiple different data modalities, particularly -omics data, and methods of extracting information from digital pathology slides at different magnifications.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://lucasfarndale.github.io/blog/tag/math/">
+    <link rel="canonical" href="https://lucasfarndale.github.io/projects/">
     
     <!-- Dark Mode -->
     
@@ -77,8 +76,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
@@ -123,29 +122,91 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> math </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
-  </header>
+          <header class="post-header">
+            <h1 class="post-title">projects</h1>
+            <p class="post-description">Predicting the prognosis of a patient with potentially cancerous growth is extremely difficult. Classical supervised machine learning requires large datasets with pre-scored ground truth labels, however these simply do not exist for many cancers and pre-cancerous growths, such as colorectal polyps. My work uses a set of emerging but relatively untested self-supervised machine learning techniques to investigate whether there exist as yet undiscovered features in pathology stains which can be used to predict cancer prognosis. These techniques require far less data than supervised methods, and no data labelling, leaving them free from human preconception, error, and bias. <br>My work focuses mainly on cancer, however, the methods developed are broadly applicable to other areas of image analysis, both in medicine and further afield. I'm also working on the integration of multiple different data modalities, particularly -omics data, and methods of extracting information from digital pathology slides at different magnifications.</p>
+          </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Oct 20, 2015</th>
-          <td>
-              <a class="post-link" href="/blog/2015/math/">a post with math</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">PhD</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_project/">
+      <div class="card hoverable">
+<figure>
 
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/12-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/12-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/12-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/12.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Improving Models of Information-Sparse Histopathology Data</h2>
+          <p class="card-text">Utilising information-dense data in training to improve models of information-sparse data</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/2_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/3.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Representation Learning From Multiple Data Sources</h2>
+          <p class="card-text">Can we use additional sources of data during training to improve models of histopathology?</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">Other</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+  </div>
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 
