@@ -1,0 +1,39 @@
+# Jekyll Configuration
+
+# Site Settings
+url: "https://lucasfarndale.github.io"
+website_url: "https://lucasfarndale.github.io/"
+title: Lucas Farndale
+email: lucasfarndale@yahoo.co.uk
+images-path: /static/images/
+videos-path: /static/videos/
+js-path: /static/js/
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Post Settings
+permalink: /:year/:month/:title
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Sass settings
+sass:
+    style: :compressed
+
+# Collections
+collections:
+    collection_nav_links:
+      output: false
+    collection_projects:
+      output: false
+    collection_social:
+      output: false
+
+# Content
+content:
+
+  ## Personal information
+  bio_tagline: "PhD Student at CRUK Beatson Institute"
+  bio_job_desc: "Deep Learning x Cancer"
+  bio_contact: ""
