@@ -4,11 +4,15 @@
 url: "https://lucasfarndale.github.io"
 website_url: "https://lucasfarndale.github.io/"
 title: Lucas Farndale
-email: lucasfarndale@yahoo.co.uk
+email: lucasfarndale@users.noreply.github.com
 images-path: /static/images/
 videos-path: /static/videos/
 js-path: /static/js/
 baseurl: "" # the subpath of your site, e.g. /blog
+
+# Theme
+
+theme: minima
 
 # Post Settings
 permalink: /:year/:month/:title
