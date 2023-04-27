@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Integrating Different Data Sources With Self-Supervised Learning
-description: First PhD project
+title: Multi-Modal Data Integration
+description: Integrating Different Data Sources With Self-Supervised Learning
 img: assets/img/12.jpg
 importance: 1
 category: work
