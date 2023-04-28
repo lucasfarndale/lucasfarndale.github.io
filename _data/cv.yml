@@ -48,12 +48,16 @@
         - Description 1.
         - Description 2.
 
-- title: TBC
+- title: Funding and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">TBC</a>
-      year: TBC
-      description: TBC
+    - title: Precision Medicine DTP Scholarship
+      year: 2022-2026
+      description: MRC funded
+    
+    -title: Carnegie Trust Research Bursary
+     year: 2020
+     description: Awarded for project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
 - title: TBC
   type: time_table
