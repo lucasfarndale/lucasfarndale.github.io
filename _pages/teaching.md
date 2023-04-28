@@ -14,7 +14,7 @@ nav_order: 4
 ## Labs
 
 Mathematics 4H/5E: Numerical Methods ([Honours](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4109)/[Masters](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS5075)) \
-[Mathematics 1: Core Skills Tests](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017) \
+[Mathematics 1: Core Skills Tests](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017)
 
 ## Tutorials
 
