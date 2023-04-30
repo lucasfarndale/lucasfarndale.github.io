@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-## Widening Participation
+## Widening Participation Summer School
 
 tbc
 
@@ -14,3 +14,6 @@ tbc
 
 tbc
 
+## Math Inside
+
+tbc
