@@ -14,6 +14,6 @@ tbc
 
 tbc
 
-## Math Inside
+## Maths Inside
 
 tbc
