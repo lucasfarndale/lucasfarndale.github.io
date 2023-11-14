@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 21st September 1997
     - name: Languages
-      value: English, German
+      value: English (Native), German (Basic)
 
 - title: Education
   type: time_table
@@ -59,30 +59,38 @@
       year: 2020
       description: Awarded for project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
-- title: TBC
+- title: Conferences
   type: time_table
   contents:
-    - year: TBC
+    - title: MICCAI 23 (Vancouver)
+    - year: 2023
       items: 
-        - TBC
-        - TBC
-    - year: TBC
+        - Poster presentation at 14th International Machine Learning in Medical Imaging (MLMI) Workshop.
+    - title: Glasgow Computational Biology Conference
+    - year: 2023
       items: 
-        - TBC
-
+        - Presented Talk "Super Vision without supervision: Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
+        - Award for best talk
+        
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Computational
       items:
-        - Description 1.
-        - Description 2.
+        - Self-Supervised Representation Learning
+        - Privileged information
+        - Computational pathology
+        - Graph neural networks
+        - Mathematical Modelling
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Wet Lab
+      items:
+        - Biomedical imaging
+        - Multiplex immunohistochemistry
+        - Cell migration
+        - Optimising wet lab techniques for deep learning applicability
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
