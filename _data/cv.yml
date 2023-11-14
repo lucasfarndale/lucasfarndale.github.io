@@ -45,8 +45,7 @@
       institution: University of Glasgow
       year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Awarded 8 weeks of funding for research project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
 - title: Funding and Awards
   type: time_table
@@ -69,7 +68,7 @@
     - title: Glasgow Computational Biology Conference
     - year: 2023
       items: 
-        - Presented Talk "Super Vision without supervision: Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
+        - Presented Talk "Super Vision without supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
         - Award for best talk
         
 - title: Academic Interests
