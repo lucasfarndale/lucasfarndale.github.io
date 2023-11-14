@@ -35,18 +35,17 @@
       institution: University of Glasgow
       year: 2020-present
       description:
-        - title: Mathematics 4H/5E Numerical Methods (Honours/Masters)
-          Mathematics 1 Core Skills Tests
-          Mathematics 2A Multivariable Calculus
-          Mathematics 2C Introduction to Real Analysis
-          Mathematics 2D Mathematical Methods and Modelling
-          Mathematics 1
-          Mathematics 1C Introduction to Calculus
-          Science Fundamentals 1X/1Y
-          Widening Participation Summer School (Maths)
+        - title: Tutorials
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Mathematics 4H/5E Numerical Methods (Honours/Masters)
+            - Mathematics 2A Multivariable Calculus
+            - Mathematics 2C Introduction to Real Analysis
+            - Mathematics 2D Mathematical Methods and Modelling
+            - Mathematics 1
+            - Mathematics 1C Introduction to Calculus
+            - Mathematics 1 Core Skills Tests
+            - Science Fundamentals 1X/1Y
+            - Widening Participation Summer School (Maths)
     - title: Carnegie Trust Research Scholar
       institution: University of Glasgow
       year: 2020
