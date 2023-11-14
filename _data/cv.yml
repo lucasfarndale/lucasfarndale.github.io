@@ -74,6 +74,12 @@
       items: 
         - Presented Talk "Super Vision without supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
         - Award for best talk at conference
+    - title: 6th SofTMech Soft Tissue Workshop
+    - year: 2023
+    - title: Digibase Transforming Digital Pathology & AI":" The Path Forward
+    - year: 2023
+    - title: Glasgow Computational Biology Conference
+    - year: 2022
         
 - title: Academic Interests
   type: nested_list
