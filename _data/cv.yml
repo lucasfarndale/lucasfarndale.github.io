@@ -19,10 +19,10 @@
       institution: University of Glasgow
       year: 2016-2022
       description:
-        - 5th Year Dissertation":" "Learning Behavioural Rules of Complex Systems with Graph Neural Networks" supervised by Dr. Colin Torney
-        - Grade":" A2 (21/22 - joint highest grade in cohort)
-        - 4th Year Dissertation":" "A Novel Hybrid Model of Microswimmer Movement" supervised by Prof. Nigel Mottram
-        - Grade":" A3 (20/22)
+        - "5th Year Dissertation": "Learning Behavioural Rules of Complex Systems with Graph Neural Networks" supervised by Dr. Colin Torney
+        - "Grade": "A2 (21/22 - joint highest grade in cohort)"
+        - "4th Year Dissertation": "A Novel Hybrid Model of Microswimmer Movement" supervised by Prof. Nigel Mottram
+        - "Grade": "A3 (20/22)"
 
 - title: Experience
   type: time_table
@@ -45,6 +45,8 @@
     - title: Maths Inside Resource Creator
       institution: University of Glasgow
       year: 2021
+      description:
+        - Contributed to the design and publication of the Maths Inside Resource Suite (https://mathsinside.com/discover/resources/2021resources/) for the Maths Inside photo competition as part of Maths Week Scotland
     - title: Carnegie Trust Research Scholar
       institution: University of Glasgow
       year: 2020
