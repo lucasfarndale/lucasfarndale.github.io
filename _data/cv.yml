@@ -14,19 +14,15 @@
     - title: PhD
       institution: CRUK Beatson Institute/University of Glasgow/University of Edinburgh
       year: 2022-present
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+
     - title: MSci Mathematics
       institution: University of Glasgow
       year: 2016-2022
       description:
-        - Description 1.
-        - Description 2.
+        - 5th Year Dissertation":" "Learning Behavioural Rules of Complex Systems with Graph Neural Networks" supervised by Dr. Colin Torney
+        - Grade":" A2 (21/22 - joint highest grade in cohort)
+        - 4th Year Dissertation":" "A Novel Hybrid Model of Microswimmer Movement" supervised by Prof. Nigel Mottram
+        - Grade":" A3 (20/22)
 
 - title: Experience
   type: time_table
@@ -49,10 +45,8 @@
     - title: Carnegie Trust Research Scholar
       institution: University of Glasgow
       year: 2020
-      description:
-        - Awarded 8 weeks of funding for research project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
-- title: Funding and Awards
+- title: Funding
   type: time_table
   contents:
     - title: Precision Medicine DTP Scholarship
@@ -61,7 +55,7 @@
     
     - title: Carnegie Trust Research Bursary
       year: 2020
-      description: Awarded for project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
+      description: Awarded 8 weeks of funding for research project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
 - title: Conferences
   type: time_table
@@ -74,7 +68,7 @@
     - year: 2023
       items: 
         - Presented Talk "Super Vision without supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
-        - Award for best talk
+        - Award for best talk at conference
         
 - title: Academic Interests
   type: nested_list
