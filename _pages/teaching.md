@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: As well as research, I spend a lot of time teaching in the School of Mathematics and Statistics at UoG. Below is a list of the courses I've been involved in.
+description: As well as research, I spend a lot of time teaching in both the School of Mathematics and Statistics and the College of Medical, Veterinary and Life Sciences at UoG. Below is a list of the courses I've been involved in.
 nav: true
 nav_order: 4
 ---
@@ -17,7 +17,7 @@ Mathematics 4H/5E: Numerical Methods ([Honours](https://www.gla.ac.uk/coursecata
 [Mathematics 1: Core Skills Tests](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017)
 
 ## Tutorials
-[Evidence-Based Biomedical Research Methods and Statistics](https://www.gla.ac.uk/coursecatalogue/course/?code=MED5538)
+[MED5538 Evidence-Based Biomedical Research Methods and Statistics](https://www.gla.ac.uk/coursecatalogue/course/?code=MED5538) \
 [Mathematics 2A: Multivariable Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \
 [Mathematics 2C: Introduction to Real Analysis](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
 [Mathematics 2D: Mathematical Methods and Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2033) \
