@@ -19,6 +19,7 @@ Mathematics 4H/5E: Numerical Methods ([Honours](https://www.gla.ac.uk/coursecata
 ## Tutorials
 [MED5538 Evidence-Based Biomedical Research Methods and Statistics](https://www.gla.ac.uk/coursecatalogue/course/?code=MED5538) \
 [Mathematics 2A: Multivariable Calculus](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2001) \
+[Mathematics 2B: Linear Algebra](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2004) \
 [Mathematics 2C: Introduction to Real Analysis](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2032) \
 [Mathematics 2D: Mathematical Methods and Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS2033) \
 [Mathematics 1](https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS1017) \
