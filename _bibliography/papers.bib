@@ -33,3 +33,14 @@ selected={true}
   abstract={Computational pathology models rarely utilise data that will not be available for inference. This means most models cannot learn from highly informative data such as additional immunohistochemical (IHC) stains and spatial transcriptomics. We present TriDeNT, a novel self-supervised method for utilising privileged data that is not available during inference to improve performance. We demonstrate the efficacy of this method for a range of different paired data including immunohistochemistry, spatial transcriptomics and expert nuclei annotations. In all settings, TriDeNT outperforms other state-of-the-art methods in downstream tasks, with observed improvements of up to 101%. Furthermore, we provide qualitative and quantitative measurements of the features learned by these models and how they differ from baselines. TriDeNT offers a novel method to distil knowledge from scarce or costly data during training, to create significantly better models for routine inputs.},
   selected={true}
 }
+
+@article{farndale2024synthetic,
+  title={Synthetic Privileged Information Enhances Medical Image Representation Learning},
+  author={Farndale, Lucas and Walsh, Chris and Insall, Robert and Yuan, Ke},
+  journal={arXiv preprint arXiv:2403.05220},
+  year={2024},
+  arxiv={2403.05220},
+  url={https://arxiv.org/abs/2403.05220},
+  abstract={Multimodal self-supervised representation learning has consistently proven to be a highly effective method in medical image analysis, offering strong task performance and producing biologically informed insights. However, these methods heavily rely on large, paired datasets, which is prohibitive for their use in scenarios where paired data does not exist, or there is only a small amount available. In contrast, image generation methods can work well on very small datasets, and can find mappings between unpaired datasets, meaning an effectively unlimited amount of paired synthetic data can be generated. In this work, we demonstrate that representation learning can be significantly improved by synthetically generating paired information, both compared to training on either single-modality (up to 4.4x error reduction) or authentic multi-modal paired datasets (up to 5.6x error reduction).},
+  selected={true}
+}
