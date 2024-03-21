@@ -66,6 +66,14 @@
 - title: Conferences
   type: time_table
   contents:
+    - title: EMBL AI and Biology Conference (Heidelberg)
+    - year: 2024
+    - items:
+      - Presented talk and poster "TriDeNT: Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology"
+    - title: Cancer Research UK Data Driven Research Conference (Manchester)
+    - year: 2024
+      items:
+        - Presented talk and poster "Super Vision without Supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
     - title: MICCAI 23 (Vancouver)
     - year: 2023
       items: 
@@ -73,7 +81,7 @@
     - title: Glasgow Computational Biology Conference
     - year: 2023
       items: 
-        - Presented Talk "Super Vision without supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
+        - Presented talk "Super Vision without Supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging"
         - Award for best talk at conference
     - title: 6th SofTMech Soft Tissue Workshop
     - year: 2023
