@@ -69,7 +69,7 @@
     - title: EMBL AI and Biology Conference (Heidelberg)
     - year: 2024
       items:
-      - Presented talk and poster "TriDeNT: Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology"
+        - Presented talk and poster "TriDeNT: Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology"
     - title: Cancer Research UK Data Driven Research Conference (Manchester)
     - year: 2024
       items:
