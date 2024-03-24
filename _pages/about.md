@@ -24,4 +24,4 @@ Hi, I'm Lucas. My [research](/projects/) involves developing deep learning metho
 
 I'm part of the [Insall lab](https://www.beatson.gla.ac.uk/beatson-research/beatson-research-groups/robert-insall-cell-migration-and-chemotaxis.html) at the Cancer Research UK Scotland Institute, and the [Yuan lab](https://kyuanlab.org/) in the University of Glasgow's School of Computing Science. Before starting my PhD, I received an MSci Mathematics degree (1st class hons) from the University of Glasgow and contributed to research in mathematical biology.
 
-![A fan of TriDeNT](_data/1000018452.jpg)
+![A fan of TriDeNT](../_data/1000018452.jpg)
