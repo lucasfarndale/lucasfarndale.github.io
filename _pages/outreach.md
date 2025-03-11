@@ -21,3 +21,11 @@ tbc
 ## Glasgow Science Festival 
 
 tbc
+
+## WorldCon 2024
+
+tbc
+
+## Partners Driving Progress Day
+
+tbc
