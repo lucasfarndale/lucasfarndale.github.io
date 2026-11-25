@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Uncovering Behavioural Rules of Complex Systems with Graph Neural Networks
-description: We show that GNNs can be used to learn the underlying interaction rules of complex stochastic biological systems.
+title: Behavioural Rules of Complex Systems
+description: Learning the interaction rules of complex stochastic biological systems with graph neural networks.
 img: assets/img/fish-swarm.jpg
-importance: 3
+importance: 1
 category: Pre-PhD
 ---
 
-tbc
+My undergraduate research at Glasgow looked at collective behaviour. My 5th year project, supervised by Prof. Colin Torney, showed that graph neural networks can learn the underlying interaction rules of complex stochastic biological systems. My 4th year project, supervised by Prof. Nigel Mottram, studied the effects of fluid flow on the Vicsek model of collective motion.

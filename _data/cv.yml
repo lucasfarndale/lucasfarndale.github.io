@@ -1,115 +1,77 @@
-- title: General Information
-  type: map
+- title: Employment
+  type: time_table
   contents:
-    - name: Full Name
-      value: Lucas Farndale
-    - name: Date of Birth
-      value: 21st September 1997
-    - name: Languages
-      value: English (Native), German (Basic)
+    - title: Postdoctoral Research Associate
+      institution: University of Glasgow / CRUK Scotland Institute (group of Ke Yuan)
+      year: 2026-present
+      description:
+        - "ORCHESTRATE prostate cancer project (led by Hing Leung, Ed Roberts and Ke Yuan)."
+        - "Spatial statistics: testing whether reported spatial relationships between cell types in tumours are statistically robust, using CosMx spatial transcriptomics (about 498,000 cells from 89 patients), four published imaging cohorts, and a screen of 215 papers. Designed simulation and calibration pipelines and released a tested, installable software package."
+        - "Lymph node immunology: designed and built the computational analysis of CODEX multiplex images of prostate-draining lymph nodes from mouse models (about 1.7 million cells), covering segmentation, vessel morphometry, spatial statistics with density-controlled nulls, QC, and batch assessment."
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: CRUK Beatson Institute/University of Glasgow/University of Edinburgh
-      year: 2022-present
-
-    - title: MSci Mathematics
+    - title: PhD Precision Medicine
+      institution: CRUK Scotland Institute / University of Glasgow / University of Edinburgh
+      year: 2022-2026
+      description:
+        - "Supervised by Robert Insall, Ke Yuan and Ed Roberts."
+        - "Thesis (submitted): Super Vision Without Supervision: Enhancing Biomedical Image Analysis with Self-Supervised Learning."
+        - "Applied self-supervised learning to high-content biomedical imaging to discover new prognostic biomarkers, first on H&E slides and later on multiplexed imaging, and developed methods that distil knowledge from advanced modalities into models needing only H&E."
+    - title: MSci Mathematics (First Class Honours)
       institution: University of Glasgow
       year: 2016-2022
       description:
-        - "5th Year Dissertation: \"Learning Behavioural Rules of Complex Systems with Graph Neural Networks\" supervised by Dr. Colin Torney"
-        - "Grade: A2 (21/22 - joint highest grade in cohort)"
-        - "4th Year Dissertation: \"A Novel Hybrid Model of Microswimmer Movement\" supervised by Prof. Nigel Mottram"
-        - "Grade: A3 (20/22)"
+        - "5th year project: Learning the Behaviour of Complex Systems with Graph Neural Networks (Prof. Colin Torney)."
+        - "4th year project: Effects of Fluid Flow on the Vicsek Model (Prof. Nigel Mottram)."
 
-- title: Experience
+- title: Scholarships and Awards
   type: time_table
   contents:
-    - title: Graduate Teaching Assistant
-      institution: University of Glasgow
-      year: 2020-present
-      description:
-        - title: Tutorials
-          contents:
-            - MED5538 Evidence-Based Biomedical Research Methods and Statistics (Honours/Masters)
-            - Mathematics 4H/5E Numerical Methods (Honours/Masters)
-            - Mathematics 2A Multivariable Calculus
-            - Mathematics 2B Linear Algebra
-            - Mathematics 2C Introduction to Real Analysis
-            - Mathematics 2D Mathematical Methods and Modelling
-            - Mathematics 1
-            - Mathematics 1 Core Skills Tests
-            - Mathematics 1C Introduction to Calculus
-            - Science Fundamentals 1X/1Y
-            - Widening Participation Summer School (Maths)
-    - title: Maths Inside Resource Creator
-      institution: University of Glasgow
-      year: 2021
-      description:
-        - Contributed to the design and publication of the Maths Inside Resource Suite (https://mathsinside.com/discover/resources/2021resources/) for the Maths Inside photo competition as part of Maths Week Scotland
-    - title: Carnegie Trust Research Scholar
-      institution: University of Glasgow
-      year: 2020
-
-- title: Funding
-  type: time_table
-  contents:
-    - title: Precision Medicine DTP Scholarship
+    - title: John Paul Career Award, CRUK Scotland Institute Most Promising PhD Student
+      year: 2026
+    - title: European Society for Spatial Biology Travel Bursary
+      year: 2026
+    - title: Cancer Sciences Best 3rd Year Talk Award and People's Choice Talk Award
+      year: 2025
+    - title: UK Multimodal AI Workshop Best Talk Award; AI and Biology Travel Bursary; UK Multimodal AI Workshop Travel Bursary
+      year: 2024
+    - title: Glasgow Computational Biology Conference Best Talk Award; CRUK Data Driven Cancer Research Travel Bursary
+      year: 2023
+    - title: Precision Medicine PhD Scholarship
       year: 2022-2026
-      description: MRC funded
-    
-    - title: Carnegie Trust Research Bursary
+    - title: Carnegie Trust Undergraduate Research Scholarship
       year: 2020
-      description: Awarded 8 weeks of funding for research project "Optimal Strategies of Influencing Collective Decision Making in Structured Networks"
 
-- title: Conferences
-  type: time_table
+- title: Selected Conference Talks and Posters
+  type: list
   contents:
-    - title: EMBL AI and Biology Conference (Heidelberg)
-    - year: 2024
-      items:
-        - "Presented talk and poster \"TriDeNT":" Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology\""
-    - title: Cancer Research UK Data Driven Research Conference (Manchester)
-    - year: 2024
-      items:
-        - "Presented talk and poster \"Super Vision without Supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging\"
-    - title: MICCAI 23 (Vancouver)
-    - year: 2023
-      items: 
-        - Poster presentation at 14th International Machine Learning in Medical Imaging (MLMI) Workshop.
-    - title: Glasgow Computational Biology Conference
-    - year: 2023
-      items: 
-        - "Presented talk \"Super Vision without Supervision":" Leveraging Self-Supervised Multimodal Integration for Enhanced Medical Imaging\""
-        - Award for best talk at conference
-    - title: 6th SofTMech Soft Tissue Workshop
-    - year: 2023
-    - title: Digibase Transforming Digital Pathology & AI":" The Path Forward
-    - year: 2023
-    - title: Glasgow Computational Biology Conference
-    - year: 2022
-        
-- title: Academic Interests
-  type: nested_list
+    - "European Congress on Digital Pathology, 2026 (talk)"
+    - "Beatson International Cancer Conference, Glasgow, 2026 (talk)"
+    - "EMBL AI and Biology, Heidelberg, 2026 (flash talk and poster)"
+    - "BSI Congress, 2025"
+    - "ISMB/ECCB, Liverpool, 2025"
+    - "European Congress on Digital Pathology, Barcelona, 2025"
+    - "AI x Bio, Cambridge, 2025 (talk)"
+    - "Imaging the Immune System, Würzburg, 2025"
+    - "UKOMAIN Multimodal AI Workshop, Sheffield, 2024 (talk)"
+    - "CRUK From Pathway to Population Workshop, Edinburgh, 2024 (talk)"
+    - "EMBL AI and Biology, Heidelberg, 2024 (talk)"
+    - "CRUK Data-Driven Cancer Research, Manchester, 2024 (talk)"
+    - "UK Dicty Meeting, Sheffield, 2023"
+    - "Multimodal AI Research Sprint: Beyond Vision & Language, London, 2023 (talk)"
+    - "MICCAI, Vancouver, 2023"
+    - "Digibase Transforming Digital Pathology and AI, Edinburgh, 2023"
+
+- title: Skills
+  type: map
   contents:
-    - title: Computational
-      items:
-        - Self-Supervised Representation Learning
-        - Privileged information
-        - Computational pathology
-        - Graph neural networks
-        - Mathematical Modelling
-
-    - title: Wet Lab
-      items:
-        - Biomedical imaging
-        - Multiplex immunohistochemistry
-        - Cell migration
-        - Optimising wet lab techniques for deep learning applicability
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Languages
+      value: English (native), German (B1)
+    - name: Programming
+      value: Python, LaTeX, Bash, Mathematica, R, MATLAB, FORTRAN
+    - name: Computational
+      value: Machine learning, image analysis, data visualisation, cross-modal integration, spatial statistics, spatial transcriptomics analysis, research software development, high-performance computing
+    - name: Biological
+      value: Immunology, cell migration and chemotaxis, lung cancer, prostate cancer, imaging biomarkers, histology, multiplex immunohistochemistry, CODEX multiplex imaging, flow cytometry, mouse experiments, tissue culture, microscopy, bacterial culture

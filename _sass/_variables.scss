@@ -19,6 +19,12 @@ $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
 $light-purple-color:  lighten($purple-color, 25%);
+// Haematoxylin & eosin inspired accents
+$hema-color:          #4a3a8c !default;
+$hema-color-light:    #b9acf0 !default;
+$eosin-color:         #c2185b !default;
+$eosin-color-light:   #f48fb1 !default;
+
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
@@ -34,5 +40,5 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($hema-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;

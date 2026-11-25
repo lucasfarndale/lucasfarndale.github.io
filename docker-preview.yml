@@ -1,0 +1,24 @@
+# Local preview of the site at http://localhost:8080
+#
+# Run from the repo folder:
+#   docker compose -f docker-preview.yml up --build
+#
+# Notes
+# - Builds the image from ./Dockerfile, so it uses this repo's Gemfile.
+# - --force_polling makes file watching work for Windows/OneDrive folders
+#   mounted into the container (inotify events do not cross that boundary).
+# - The first build is slow (installing gems, converting images to webp).
+services:
+  jekyll_preview:
+    build: .
+    image: al-folio-preview
+    container_name: al-folio-preview
+    command: bash -c "
+      rm -f Gemfile.lock
+      && bundle exec jekyll serve --host 0.0.0.0 --port 8080
+      --force_polling --livereload --livereload-port 35729 --trace"
+    ports:
+      - "8080:8080"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll

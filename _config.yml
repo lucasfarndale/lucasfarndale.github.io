@@ -5,17 +5,16 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Lucas
 last_name: Farndale
-email: lucasfarndale@users.noreply.github.com
+email: lucas.farndale@glasgow.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Lucas Farndale: postdoctoral researcher in computational pathology and cancer imaging at the University of Glasgow and the CRUK Scotland Institute.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: computational pathology, self-supervised learning, spatial statistics, cancer imaging, multiplex imaging, deep learning
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔬  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://lucasfarndale.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -54,7 +53,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -104,7 +103,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Reach out on Twitter!
+  Best reached by email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -168,14 +167,14 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
 news:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -205,6 +204,12 @@ kramdown:
 include: ['_pages']
 exclude:
   - bin
+  - _posts
+  - _news
+  - blog
+  - news.html
+  - _projects/6_project.md
+  - _pages/dropdown.md
   - Gemfile
   - Gemfile.lock
   - vendor
@@ -296,7 +301,7 @@ badges: # Display different badges for your publications
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric, citations, cites]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors

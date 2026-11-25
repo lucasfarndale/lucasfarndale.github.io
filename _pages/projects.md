@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Predicting the prognosis of a patient with potentially cancerous growth is extremely difficult. Classical supervised machine learning requires large datasets with pre-scored ground truth labels, however these simply do not exist for many cancers and pre-cancerous growths, such as colorectal polyps. My work uses a set of emerging but relatively untested self-supervised machine learning techniques to investigate whether there exist as yet undiscovered features in pathology stains which can be used to predict cancer prognosis. These techniques require far less data than supervised methods, and no data labelling, leaving them free from human preconception, error, and bias. <br><br>My work focuses mainly on cancer, however, the methods developed are broadly applicable to other areas of image analysis, both in medicine and further afield. I'm also working on the integration of multiple different data modalities, particularly -omics data, and methods of extracting information from digital pathology slides at different magnifications.
+description: I develop computational methods that extract clinically useful information from cancer images. Much of my work uses self-supervised learning, which needs far less labelled data than supervised approaches and is not limited by human preconceptions about what matters. I am particularly interested in distilling knowledge from advanced imaging and molecular data into models that only need routine slides, and in rigorous spatial statistics for tumour microenvironments. The methods are broadly applicable beyond medicine, too.
 nav: true
 nav_order: 2
 display_categories: [Machine Learning, Biology, Pre-PhD]

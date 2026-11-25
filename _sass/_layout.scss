@@ -48,3 +48,134 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+
+/******************************************************************************
+ * Refreshed look (typography, profile, publications, cards)
+ ******************************************************************************/
+
+body {
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.navbar-brand {
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.005em;
+}
+
+.post .post-header .post-title {
+  font-weight: 600;
+}
+
+.post .post-header .post-description,
+.post .post-header .desc {
+  font-size: 1.05rem;
+  color: var(--global-text-color-light);
+}
+
+article h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--global-theme-color);
+  display: inline-block;
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
+
+// Navigation
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.navbar .nav-link {
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+.navbar .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 600;
+  border-bottom: 2px solid var(--global-theme-color);
+}
+
+// Profile photo
+.profile img {
+  box-shadow: 0 6px 22px rgba(74, 58, 140, 0.25);
+}
+
+.profile .address {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+// Publications as cards
+.publications ol.bibliography > li {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 6px;
+  padding: 1rem 1rem 0.4rem;
+  margin-bottom: 1.1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-left-color: var(--global-hover-color);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+
+  .abbr abbr {
+    border-radius: 3px;
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    margin-bottom: 0.2rem;
+  }
+
+  .periodical {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .citations {
+    font-size: 0.85rem;
+    margin: 0 0 0.6rem;
+  }
+}
+
+.publications h2.year {
+  color: var(--global-theme-color);
+  opacity: 0.55;
+  border-top: none;
+  font-size: 1.6rem;
+}
+
+// Project / CV cards
+.card {
+  border-radius: 8px;
+  border: 1px solid var(--global-divider-color);
+  box-shadow: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.projects .card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.cv .card h3.card-title {
+  font-size: 1.3rem;
+  color: var(--global-theme-color);
+}
+
+footer.fixed-bottom {
+  font-size: 0.85rem;
+}

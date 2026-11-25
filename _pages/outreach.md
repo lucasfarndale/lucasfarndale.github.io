@@ -1,31 +1,28 @@
 ---
 layout: page
 permalink: /outreach/
-title: Outreach
-description: 
-nav: false
+title: Outreach & Service
+description: Public engagement, community organising and reviewing.
+nav: true
+nav_order: 6
 ---
 
-## Widening Participation Summer School
+## Public engagement
 
-tbc
+- **Glasgow Science Festival** (including 2026)
+- **Beatson Open Days** (including 2026)
+- **Worldcon 2024**
+- **Partnering Progress Evening** and patient involvement events
+- **Widening Participation Summer School** (teaching, see [Teaching](/teaching/))
+- Featured in a ScottishPower advert
+- Charity football match
 
-## Beatson Open Day
+## Community and committees
 
-tbc
+- Glasgow Computational Biology Community and the Glasgow Computational Biology Conference
+- CompBio Hackathon
+- CRUK Scotland Institute Deep Learning Journal Club and Computational Biology Journal Club
 
-## Maths Inside
+## Reviewing
 
-tbc
-
-## Glasgow Science Festival 
-
-tbc
-
-## WorldCon 2024
-
-tbc
-
-## Partners Driving Progress Day
-
-tbc
+*Nature Communications*, *IEEE Transactions on Medical Imaging*, *iScience*, ISMB

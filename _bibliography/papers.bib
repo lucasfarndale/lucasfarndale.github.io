@@ -1,57 +1,134 @@
 ---
 ---
 
-@InProceedings{farndale2023more,
-author={Farndale, Lucas
-and Insall, Robert
-and Yuan, Ke},
-editor={Cao, Xiaohuan
-and Xu, Xuanang
-and Rekik, Islem
-and Cui, Zhiming
-and Ouyang, Xi},
-title={More from Less: Self-supervised Knowledge Distillation for Routine Histopathology Data},
-booktitle={Machine Learning in Medical Imaging},
-year={2023},
-publisher={Springer Nature Switzerland},
-address={Cham},
-pages={454--463},
-abstract={Medical imaging technologies are generating increasingly large amounts of high-quality, information-dense data. Despite the progress, practical use of advanced imaging technologies for research and diagnosis remains limited by cost and availability, so more information-sparse data such as H{\&}E stains are relied on in practice. The study of diseased tissue would greatly benefit from methods which can leverage these information-dense data to extract more value from routine, information-sparse data. Using self-supervised learning (SSL), we demonstrate that it is possible to distil knowledge during training from information-dense data into models which only require information-sparse data for inference. This improves downstream classification accuracy on information-sparse data, making it comparable with the fully-supervised baseline. We find substantial effects on the learned representations, and pairing with relevant data can be used to extract desirable features without the arduous process of manual labelling. This approach enables the design of models which require only routine images, but contain insights from state-of-the-art data, allowing better use of the available resources.},
-isbn={978-3-031-45673-2},
-url={https://link.springer.com/chapter/10.1007/978-3-031-45673-2_45},
-arxiv={2303.10656},
-selected={true}
-}
-
-@article{farndale2023trident,
-  title={TriDeNT: Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology},
-  author={Farndale, Lucas and Insall, Robert and Yuan, Ke},
-  journal={arXiv preprint arXiv:2312.02111},
-  year={2023},
-  arxiv={2312.02111},
-  url={https://arxiv.org/abs/2312.02111},
-  abstract={Computational pathology models rarely utilise data that will not be available for inference. This means most models cannot learn from highly informative data such as additional immunohistochemical (IHC) stains and spatial transcriptomics. We present TriDeNT, a novel self-supervised method for utilising privileged data that is not available during inference to improve performance. We demonstrate the efficacy of this method for a range of different paired data including immunohistochemistry, spatial transcriptomics and expert nuclei annotations. In all settings, TriDeNT outperforms other state-of-the-art methods in downstream tasks, with observed improvements of up to 101%. Furthermore, we provide qualitative and quantitative measurements of the features learned by these models and how they differ from baselines. TriDeNT offers a novel method to distil knowledge from scarce or costly data during training, to create significantly better models for routine inputs.},
+@article{farndale2025selfsupervised,
+  abbr={bioRxiv},
+  title={Self-Supervised AI Reveals a Hidden Landscape of Prognostic Spatial Patterns in Multiplex Immunofluorescence Images},
+  author={Farndale, Lucas and Rakovic, Kai and Hatthakarnkul, P. and Szalma, S. and Schubert Santana, L. P. and Martinelli, S. and Ballantyne, F. and Baird, R. L. and Powley, I. R. and Officer-Jones, L. and Maka, N. and Roxburgh, C. and Miller, C. J. and Chang, D. and Edwards, J. and Roberts, E. W. and Le Quesne, John and Yuan, Ke},
+  journal={bioRxiv},
+  year={2025},
+  month={oct},
+  doi={10.1101/2025.10.16.682563},
+  url={https://doi.org/10.1101/2025.10.16.682563},
+  note={Preprint. L.F. and K.R. contributed equally; J.L.Q. and K.Y. jointly supervised.},
+  abstract={Modern spatial proteomic methods, such as multiplex immunofluorescence (mIF) imaging, offer a data-rich view of spatial biology in intact tissues. However, interpreting its complexity is a major bottleneck, limiting its potential for biological discovery and clinical translation. Current computational methods often rely on segmentation-based approaches that discard crucial morphological information and are limited to testing pre-defined hypotheses. Here, we introduce a self-supervised learning (SSL) framework that enables hypothesis-agnostic, context-aware discovery of biomarkers directly from mIF images. Our approach extracts rich feature representations that capture holistic architectural patterns, which integrate cellular morphology, marker interactions, and microenvironmental context without human supervision. Applying this framework to over 7,000 mIF tissue images from over 1,800 patients in two distinct cancer types, we demonstrate superior prognostic performance over conventional segmentation analyses. The method autonomously identified previously unknown and potentially clinically actionable biological patterns. In lung adenocarcinoma, these include a Ki67-mediated immune evasion phenotype, a subcellular pattern of GLB1 expression which aligns with low-grade EGFR-driven tumours, and distinct modes of tumour-immune interaction in PD-L1+ patients. We also find a regulatory T-cell-mediated immunosupressive environment promoting tumour budding in colorectal carcinoma. Our work establishes SSL as a powerful, scalable, and unbiased platform to decode tissue ecosystems while being fully explainable without pre-defined hypotheses. This paradigm shift transforms high-plex imaging from a hypothesis-testing tool into a hypothesis-generating engine that can accelerate the discovery of next-generation spatial biomarkers.},
+  citations={1},
+  cites={8674196667073031948},
   selected={true}
 }
 
-@article{farndale2024synthetic,
-  title={Synthetic Privileged Information Enhances Medical Image Representation Learning},
-  author={Farndale, Lucas and Walsh, Chris and Insall, Robert and Yuan, Ke},
-  journal={arXiv preprint arXiv:2403.05220},
-  year={2024},
-  arxiv={2403.05220},
-  url={https://arxiv.org/abs/2403.05220},
-  abstract={Multimodal self-supervised representation learning has consistently proven to be a highly effective method in medical image analysis, offering strong task performance and producing biologically informed insights. However, these methods heavily rely on large, paired datasets, which is prohibitive for their use in scenarios where paired data does not exist, or there is only a small amount available. In contrast, image generation methods can work well on very small datasets, and can find mappings between unpaired datasets, meaning an effectively unlimited amount of paired synthetic data can be generated. In this work, we demonstrate that representation learning can be significantly improved by synthetically generating paired information, both compared to training on either single-modality (up to 4.4x error reduction) or authentic multi-modal paired datasets (up to 5.6x error reduction).},
+@article{alkhalidi2026cyclops,
+  abbr={bioRxiv},
+  title={CYCLOPS: an open end-to-end platform for cyclic multiplex imaging and single-cell phenotyping},
+  author={Al-Khalidi, S. and Paul, N. and Al-Khalidi, M. and Powley, I. and Carlin, L. and Farndale, Lucas and Roberts, E.},
+  journal={bioRxiv},
+  year={2026},
+  month={jun},
+  doi={10.64898/2026.06.11.731276},
+  url={https://doi.org/10.64898/2026.06.11.731276},
+  note={Preprint},
+  abstract={Multiplex immunofluorescent imaging enables deep spatial profiling of protein expression in tissues but is often limited by reliance on proprietary reagents, dedicated hardware, and closed analysis ecosystems. Here we present CYCLOPS (Cyclic Open Platform for Spatial Proteomics), an end-to-end, open-source workflow for cyclic multiplex imaging and single-cell phenotyping using standard microscopy infrastructure. CYCLOPS integrates an Arduino-based automated fluidics system, an open-chamber stage insert, and antibody-oligonucleotide conjugation based entirely on published chemistries and off-the-shelf components. We demonstrate robust and reproducible antibody conjugation, high-quality multiplexed staining, and stable imaging across >10 cycles with minimal drift and consistent fluorescence retention with low signal carry-over. To enable quantitative analysis, we establish an open-source image processing and analysis pipeline for single-cell feature extraction and phenotypic classification, avoiding reliance on proprietary software or black-box workflows. Together, CYCLOPS provides a flexible and accessible platform for cyclic multiplex imaging, lowering barriers to adoption and enabling broader use of spatial proteomics across diverse research settings.},
+  citations={1},
+  cites={10744516311622473407}
+}
+
+@article{bryce2026morphospatial,
+  abbr={bioRxiv},
+  title={Morphospatial Profiling of Cancer-Associated Fibroblasts Reveals Architectural Subtypes of Pancreatic Ductal Adenocarcinoma},
+  author={Bryce, A. S. and Martinelli, S. and Schubert Santana, L. and Officer-Jones, L. and Baird, R. L. and Ballantyne, F. and Rakovic, K. and Powley, I. R. and Tataran, D. and Meltzer, D. J. and Walsh, C. and Duthie, F. and Farndale, Lucas and Claudio Quiros, A. and Yuan, Ke and Le Quesne, J. and Froeling, F. E. and Dreyer, S. B. and Chang, D. K.},
+  journal={bioRxiv},
+  year={2026},
+  month={feb},
+  doi={10.64898/2026.02.06.704414},
+  url={https://doi.org/10.64898/2026.02.06.704414},
+  note={Preprint},
+  abstract={Pancreatic ductal adenocarcinoma (PDAC) is a lethal malignancy with an urgent need for biomarkers to predict prognosis and guide treatment. Using a multi-omics approach across multiple spatial resolutions in a large human PDAC cohort, we integrate geometry and shape to define discrete morphological CAF subtypes, expanding CAF phenotyping beyond conventional proteomics. We then reveal an architectural and molecular axis of PDAC at tissue level, suggestive of epithelial-stromal co-evolution, and introduce four internally validated architectural subtypes of PDAC, each characterised by a common microenvironment and CAF enrichment profile. These archetypes outperform conventional pathology in prognostication, and predict response to adjuvant chemotherapy.}
+}
+
+@article{liu2025deployment,
+  abbr={NMI},
+  title={Towards Deployment-Centric Multimodal {AI} Beyond Vision and Language},
+  author={Liu, Xianyuan and Zhang, Jiayang and Zhou, Shuo and van der Plas, Thijs L. and Vijayaraghavan, Avish and Grishina, Anastasiia and Zhuang, Mengdie and Schofield, Daniel and Tomlinson, Christopher and Wang, Yuhan and Li, Ruizhe and van Zeeland, Louisa and Tabakhi, Sina and Demeocq, Cyndie and Li, Xiang and Das, Arunav and Timmerman, Orlando and Baldwin-McDonald, Thomas and Wu, Jinge and Bai, Peizhen and Al Sahili, Zahraa and Alwazzan, Omnia and Do, Thao N. and Suvon, Mohammod N. I. and Wang, Angeline and Cipolina-Kun, Lucia and Moretti, Luigi A. and Farndale, Lucas and Jain, Nitisha and Efremova, Natalia and Ge, Yan and Varela, Marta and Lam, Hak-Keung and Celiktutan, Oya and Evans, Ben R. and Coca-Castro, Alejandro and Wu, Honghan and Abdallah, Zahraa S. and Chen, Chen and Danchev, Valentin and Tkachenko, Nataliya and Lu, Lei and Zhu, Tingting and Slabaugh, Gregory G. and Moore, Roger K. and Cheung, William K. and Charlton, Peter H. and Lu, Haiping},
+  journal={Nature Machine Intelligence},
+  volume={7},
+  number={10},
+  pages={1612--1624},
+  year={2025},
+  month={oct},
+  doi={10.1038/s42256-025-01116-5},
+  url={https://doi.org/10.1038/s42256-025-01116-5},
+  citations={23},
+  cites={11435692346337266583}
+}
+
+@article{farndale2025trident,
+  abbr={MedIA},
+  title={{TriDeNT}: Triple Deep Network Training for Privileged Knowledge Distillation in Histopathology},
+  author={Farndale, Lucas and Insall, Robert and Yuan, Ke},
+  journal={Medical Image Analysis},
+  volume={102},
+  pages={103479},
+  year={2025},
+  month={may},
+  doi={10.1016/j.media.2025.103479},
+  url={https://doi.org/10.1016/j.media.2025.103479},
+  arxiv={2312.02111},
+  abstract={Computational pathology models rarely utilise data that will not be available for inference. This means most models cannot learn from highly informative data such as additional immunohistochemical (IHC) stains and spatial transcriptomics. We present TriDeNT, a novel self-supervised method for utilising privileged data that is not available during inference to improve performance. We demonstrate the efficacy of this method for a range of different paired data including immunohistochemistry, spatial transcriptomics and expert nuclei annotations. In all settings, TriDeNT outperforms other state-of-the-art methods in downstream tasks, with observed improvements of up to 101%. Furthermore, we provide qualitative and quantitative measurements of the features learned by these models and how they differ from baselines. TriDeNT offers a novel method to distil knowledge from scarce or costly data during training, to create significantly better models for routine inputs.},
+  citations={13},
+  cites={13007213526269227569},
   selected={true}
 }
 
 @article{farndale2025divide,
+  abbr={arXiv},
   title={Divide and Conquer Self-Supervised Learning for High-Content Imaging},
-  author={Farndale, Lucas and Henderson, Paul and Roberts, Edwards W and Yuan, Ke},
+  author={Farndale, Lucas and Henderson, Paul and Roberts, E. W. and Yuan, Ke},
   journal={arXiv preprint arXiv:2503.07444},
   year={2025},
+  month={mar},
+  doi={10.48550/arXiv.2503.07444},
   arxiv={2503.07444},
   url={https://arxiv.org/abs/2503.07444},
+  note={Preprint},
   abstract={Self-supervised representation learning methods often fail to learn subtle or complex features, which can be dominated by simpler patterns which are much easier to learn. This limitation is particularly problematic in applications to science and engineering, as complex features can be critical for discovery and analysis. To address this, we introduce Split Component Embedding Registration (SpliCER), a novel architecture which splits the image into sections and distils information from each section to guide the model to learn more subtle and complex features without compromising on simpler features. SpliCER is compatible with any self-supervised loss function and can be integrated into existing methods without modification. The primary contributions of this work are as follows: i) we demonstrate that existing self-supervised methods can learn shortcut solutions when simple and complex features are both present; ii) we introduce a novel self-supervised training method, SpliCER, to overcome the limitations of existing methods, and achieve significant downstream performance improvements; iii) we demonstrate the effectiveness of SpliCER in cutting-edge medical and geospatial imaging settings. SpliCER offers a powerful new tool for representation learning, enabling models to uncover complex features which could be overlooked by other methods.},
+  citations={1},
+  cites={3391205443928024348},
+  selected={true}
+}
+
+@article{farndale2024synthetic,
+  abbr={arXiv},
+  title={Synthetic Privileged Information Enhances Medical Image Representation Learning},
+  author={Farndale, Lucas and Walsh, Chris and Insall, Robert and Yuan, Ke},
+  journal={arXiv preprint arXiv:2403.05220},
+  year={2024},
+  month={mar},
+  doi={10.48550/arXiv.2403.05220},
+  arxiv={2403.05220},
+  url={https://arxiv.org/abs/2403.05220},
+  note={Preprint},
+  abstract={Multimodal self-supervised representation learning has consistently proven to be a highly effective method in medical image analysis, offering strong task performance and producing biologically informed insights. However, these methods heavily rely on large, paired datasets, which is prohibitive for their use in scenarios where paired data does not exist, or there is only a small amount available. In contrast, image generation methods can work well on very small datasets, and can find mappings between unpaired datasets, meaning an effectively unlimited amount of paired synthetic data can be generated. In this work, we demonstrate that representation learning can be significantly improved by synthetically generating paired information, both compared to training on either single-modality (up to 4.4x error reduction) or authentic multi-modal paired datasets (up to 5.6x error reduction).},
+  citations={5},
+  cites={8395576989091452535},
+  selected={true}
+}
+
+@InProceedings{farndale2023more,
+  abbr={MLMI},
+  author={Farndale, Lucas and Insall, Robert and Yuan, Ke},
+  editor={Cao, Xiaohuan and Xu, Xuanang and Rekik, Islem and Cui, Zhiming and Ouyang, Xi},
+  title={More from Less: Self-supervised Knowledge Distillation for Routine Histopathology Data},
+  booktitle={Machine Learning in Medical Imaging},
+  year={2023},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={454--463},
+  doi={10.1007/978-3-031-45673-2_45},
+  isbn={978-3-031-45673-2},
+  url={https://doi.org/10.1007/978-3-031-45673-2_45},
+  arxiv={2303.10656},
+  abstract={Medical imaging technologies are generating increasingly large amounts of high-quality, information-dense data. Despite the progress, practical use of advanced imaging technologies for research and diagnosis remains limited by cost and availability, so more information-sparse data such as H{\&}E stains are relied on in practice. The study of diseased tissue would greatly benefit from methods which can leverage these information-dense data to extract more value from routine, information-sparse data. Using self-supervised learning (SSL), we demonstrate that it is possible to distil knowledge during training from information-dense data into models which only require information-sparse data for inference. This improves downstream classification accuracy on information-sparse data, making it comparable with the fully-supervised baseline. We find substantial effects on the learned representations, and pairing with relevant data can be used to extract desirable features without the arduous process of manual labelling. This approach enables the design of models which require only routine images, but contain insights from state-of-the-art data, allowing better use of the available resources.},
+  citations={6},
+  cites={14622463240277119253,15483601339609987370},
   selected={true}
 }

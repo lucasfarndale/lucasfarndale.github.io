@@ -219,6 +219,12 @@
           </div>
           {%- endif %}
 
+          {%- if entry.citations %}
+          <div class="citations">
+            <a href="{% if entry.cites %}https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites={{ entry.cites }}{% else %}https://scholar.google.com/citations?user={{ site.scholar_userid }}{% endif %}" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by {{ entry.citations }}</a>
+          </div>
+          {%- endif %}
+
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
           <div class="abstract hidden">

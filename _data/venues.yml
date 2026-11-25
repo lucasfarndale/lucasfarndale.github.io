@@ -1,6 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NMI":
+  url: https://www.nature.com/natmachintell/
+  color: "#2a6f97"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MedIA":
+  url: https://www.sciencedirect.com/journal/medical-image-analysis
+  color: "#00698f"
+
+"MLMI":
+  url: https://link.springer.com/conference/mlmi
+  color: "#5b4b8a"
+
+"bioRxiv":
+  url: https://www.biorxiv.org/
+  color: "#b5382e"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#7a3b1f"
